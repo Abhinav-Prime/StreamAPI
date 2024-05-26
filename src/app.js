@@ -13,4 +13,11 @@ app.use(express.urlencoded({extended:true,limit:"16kb"}))//it understands spaces
 app.use(express.static("public"))//used for files which can be public like icons,pics
 app.use(cookieParser())
 
+//routes
+import userRouter from './routes/user.routes.js';
+
+
+//routes declaration
+app.use("/api/v1/user",userRouter);
+
 export {app}
