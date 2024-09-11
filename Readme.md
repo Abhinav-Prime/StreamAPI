@@ -1,11 +1,11 @@
 
-YouTube Backend Clone-
+# YouTube Backend Clone-
 This is a YouTube backend clone built using Node.js, Express.js, MongoDB, and other modern web development technologies. The clone implements core features such as video uploads, video streaming, user authentication, comments, and likes, mimicking the functionality of the popular video-sharing platform.
 
 # Features
-*User Authentication: JWT-based authentication for users to sign up, log in, and manage their profiles.
+* User Authentication: JWT-based authentication for users to sign up, log in, and manage their profiles.
 
-*Video Upload: Allows users to upload videos with title, description, and thumbnail.
+* Video Upload: Allows users to upload videos with title, description, and thumbnail.
 
 * Comments: Users can leave comments on videos, and the video owners can reply to those comments.
 
@@ -35,15 +35,15 @@ This is a YouTube backend clone built using Node.js, Express.js, MongoDB, and ot
 
 * MongoDB (Ensure MongoDB is running locally or provide a connection string)
 
-1.Installation
-Clone the repository:
+# Installation
+1. Clone the repository:
 git clone https://github.com/Abhinav-Prime/youtube-backend-clone.git
 cd youtube-backend-clone
 
-2.Install dependencies:
+2. Install dependencies:
 npm install
 
-3.Set up environment variables:
+3. Set up environment variables:
 Create a .env file in the root directory and add the following variables:
 
 * PORT=5000
@@ -58,11 +58,9 @@ Create a .env file in the root directory and add the following variables:
 
 * CLOUDINARY_API_SECRET=<cloudinary-api-secret> # Optional
 
-4.Start the server
-npm start
+4. Start the server
+* npm start
 
-* Contributing
-Pull requests are welcome! Please make sure to follow the contribution guidelines.
 
 
 
